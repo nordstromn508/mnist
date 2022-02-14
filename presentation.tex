@@ -1,0 +1,39 @@
+\documentclass[12pt,oneside, letterpaper, draft]{beamer}
+
+\usepackage{graphicx}
+\usetheme{metropolis}
+
+\title{Classical Neural Network Classification On MNIST Handwritten Digit Dataset}
+\author{Nicholas Nordstrom}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{ MNIST Handwritten Digit Dataset}
+
+	\begin{columns}[T]
+    \begin{column}{.5\textwidth}
+     \begin{block}{Your textblock}
+% Your text here
+the dataset contains an X vector of 28x28 images that each contain a single digit
+    \end{block}
+    \end{column}
+    \begin{column}{.5\textwidth}
+    \begin{block}{Your image}
+% Your image included here
+    \includegraphics[<options, e.g. width=\textwidth>]{Digit_0.png}
+    \end{block}
+    \end{column}
+  \end{columns}
+   
+\end{frame}
+
+\begin{frame}{preprocessing}
+
+To preprocess the data for the neural network, I scaled the values in the images down from an integer value of 0 - 255 to a float value between 0 - 1
+
+\end{frame}
+
+\end{document}
